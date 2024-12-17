@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Segurança - Indústrias Wayne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Gestão de Segurança - Indústrias Wayne</h1>
+        <h2>Bem-Vindo Bruce!</h2>
+    </header>
+
+    <!-- Gestão de Recursos -->
+    <section id="gestao-recursos">
+        <h2>Gestão de Recursos</h2>
+        <div>
+            <label for="item_select">Escolha um item:</label>
+            <select id="item_select">
+                <option value="Funcionarios">Funcionários</option>
+                <option value="Suprimentos">Suprimentos</option>
+                <option value="Carros">Carro Comum</option>
+                <option value="Computadores">Computadores</option>
+                <option value="Batmovel">Batmóvel</option>
+                <option value="Batwing">Batwing</option>
+                <option value="Batarang">Batarang</option>
+                <option value="Batcaverna">Batcaverna</option>
+            </select>
+            <button id="btn_adicionar" onclick="adicionarRecurso()">Adicionar</button>
+        </div>
+        <ul id="lista-recursos">
+            <!-- A lista de recursos será exibida aqui -->
+        </ul>
+    </section>
+
+    <!-- Dashboard de Visualização -->
+    <section id="dashboard">
+        <h2>Dashboard de Visualização</h2>
+        <div id="painel">
+            <p>Total de Recursos: <span id="total-recursos">0</span></p>
+            <p>Status: <span id="status-seguranca"></span></p>
+        </div>
+    </section>
+
+    <script src="script_gestor.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo */
+body {
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #ffb703;
+}
+
+/* Sessões */
+section {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+h2 {
+    color: #8ecae6;
+    margin-bottom: 10px;
+}
+
+/* Formulários e Botões */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ffb703;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #faa307;
+}
+
+/* Lista de Recursos */
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li {
+    background: #222;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Dashboard */
+#painel {
+    text-align: center;
+}
+
+#painel p {
+    margin: 10px 0;
+}
